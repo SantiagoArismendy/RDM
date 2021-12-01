@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +7,7 @@
 }
 a {
   text-decoration: none;
+  color:black;
 }
 /* HEADER */
 header {
@@ -80,14 +81,45 @@ header {
   margin: 0.5em;
 }
 #slide-ads h1 {
-    background-color: white;
-    border-radius: 0.3em;
-    padding: 0.1em;    
+  background-color: white;
+  border-radius: 0.3em;
+  padding: 0.1em;
 }
-#slide-ads button {
-    background-color: #F0A83E;
-    border-radius: 0.3em;
-    border: none;
-    color: white;
-    padding: 1em;
+#slide-ads a {
+  background-color: #f0a83e;
+  border-radius: 0.3em;
+  border: none;
+  color: white;
+  padding: 1em;
+}
+
+/* MAIN */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.main *{
+  margin: 0.5em;
+  align-self: center;
+}
+.main .imgM {
+  align-self: center;
+}
+/* CARDS */
+.cards{
+  display: flex;
+  flex-direction: row;
+  margin: 0em 9em 3em;
+  margin-top: 3em;
+  justify-content: space-around;
+  background-color: #FBFAF6;
+}
+.cards div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
