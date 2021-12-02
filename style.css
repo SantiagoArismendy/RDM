@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: Roboto;
 }
+body{
+  background-color: #FBFAF6;
+}
 a {
   text-decoration: none;
   color:black;
@@ -118,8 +121,114 @@ header {
   justify-content: space-around;
   background-color: #FBFAF6;
 }
+.cards p{
+  color: #3C2313;
+  font-size: larger;
+}
+.cards #price{
+  color: #F0A83E;
+} 
 .cards div{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* FORMULARIO */
+.formu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+.formu input{
+  display: block;
+}
+
+.formu form input{
+  border: 0em;
+  margin: 1em;
+  padding: 1em;
+  background-color: #3C2313;
+  color: white;
+  border-radius: 1em;
+  width: 25em;
+}
+
+#frmbtn{ 
+  display: flex;
+}
+#frmbtn *{
+  width: 100%;
+  padding: 0.7em;
+}
+#frmbtn #enviar{
+  background-color: #F0A83E;
+}
+#frmbtn #resetear{
+  background-color: #8A8787;
+}
+
+/* BOLETIN */
+.boletin{
+  background-color: #F0A83E;
+  color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.boletin #blts{
+  display: inherit;
+  align-items: center;
+  margin: 0em 2em;
+}
+.boletin #blts *{
+  margin: 0.3em;
+}
+.boletin input{
+  border: 0em;
+  padding: 1em;
+  background-color: white;
+  color: white;
+  border-radius: 1em;
+}
+
+#sus{
+  background-color:#3C2313;
+}
+
+/* FOOTER */
+footer{
+  background-color: #3C2313;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0em 3em;
+  color: white;
+}
+.infocard{
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card img{
+  margin: 1.5em;
+}
+#infor{
+  display: flex;
+  flex-direction: column;
+}
+
+/* BOTTOM */
+.bottom{
+  background-color: #222222;
+  color: #f3f3f3;
+  padding: 0.5em 5em;
+  text-align: center;
 }
